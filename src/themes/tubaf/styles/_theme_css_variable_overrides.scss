@@ -1,0 +1,18 @@
+// Override or add CSS variables for your theme here
+
+:root {
+  --ds-header-logo-height: 40px;
+  --ds-banner-text-background: rgba(0, 0, 0, 0.45);
+  --ds-banner-background-gradient-width: 300px;
+  --ds-home-news-link-color: #{$yellow};
+  --ds-home-news-link-hover-color: #{darken($yellow, 15%)};
+  --ds-header-navbar-border-top-color: #{$gray-800};
+  --ds-header-navbar-border-bottom-color: #{$gray-800};
+  --ds-header-bg: #0064a8;   // TUBAF Blue
+  --ds-navbar-link-color: #{$gray-100};
+  --ds-navbar-link-hover-color: #{$gray-400};
+  --ds-header-icon-color: #{$gray-100};
+  --ds-header-icon-hover-color: #{$gray-400};
+}
+
+
