@@ -10,5 +10,3 @@ rest:
   port: 443
   nameSpace: /server
 
-themes:
-  - name: 'tubaf'

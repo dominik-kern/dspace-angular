@@ -15,6 +15,20 @@ rest:
   port: 443
   nameSpace: /server
 
+defaultLanguage: en
+
+# Languages. DSpace Angular holds a message catalog for each of the following languages.
+# When set to active, users will be able to switch to the use of this language in the user interface.
+# All out of the box language packs may be found in the ./src/assets/i18n/ directory
+languages:
+  - code: en
+    label: English
+    active: true
+  - code: de
+    label: Deutsch
+    active: true
+
+
 # enable theme
 themes:
   - name: 'tubaf'
