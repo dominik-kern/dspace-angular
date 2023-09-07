@@ -28,7 +28,6 @@ languages:
     label: Deutsch
     active: true
 
-
 # enable theme
 themes:
   - name: 'tubaf'
