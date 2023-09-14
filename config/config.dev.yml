@@ -51,3 +51,60 @@ themes:
         rel: manifest
         href: assets/tubaf/images/favicons/manifest.webmanifest
 
+
+# try some Layout from example.yml
+#crisLayout:
+#  urn:
+#    - name: doi
+#      baseUrl: "https://doi.org/"
+#    - name: hdl
+#      baseUrl: "https://hdl.handle.net/"
+#    - name: scopus
+#      baseUrl: "https://www.scopus.com/authid/detail.uri?authorId="
+#    - name: researcherid
+#      baseUrl: "http://www.researcherid.com/rid/"
+#    - name: mailto
+#      baseUrl: "mailto:"
+#  crisRef:
+#    - entityType: PRIVATE
+#      entityStyle:
+#        "dc.contributor.author":
+#          icon: fa fa-user
+#          style: text-muted
+#    - entityType: DEFAULT
+#      entityStyle:
+#        default:
+#          icon: fa fa-user
+#          style: text-info
+#    - entityType: PERSON
+#      entityStyle:
+#        person:
+#          icon: fa fa-user
+#          style: text-success
+#        personStaff:
+#          icon: fa fa-user
+#          style: text-danger
+#        default:
+#          icon: fa fa-user
+#          style: text-info
+#    - entityType: ORGUNIT
+#      entityStyle:
+#        default:
+#          icon: fa fa-university
+#          style: text-success
+#    - entityType: PROJECT
+#      entityStyle:
+#        default:
+#          icon: fas fa-project-diagram
+#          style: text-success
+#  crisRefStyleMetadata: "cris.entity.style"
+#  itemPage:
+#    OrgUnit:
+#      orientation: vertical
+#    Project:
+#      orientation: vertical
+#    default:
+#      orientation: horizontal
+#  metadataBox:
+#    defaultMetadataLabelColStyle: "col-3"
+#    defaultMetadataValueColStyle: "col-9"

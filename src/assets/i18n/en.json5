@@ -3729,7 +3729,7 @@
 
   "menu.section.explore_publications": "Research Outputs",
 
-  "menu.section.explore_researchoutputs": "Research Outputs",
+  "menu.section.explore_researchoutputs": "Publications",
 
   "menu.section.explore_researcherprofiles": "People",
 
@@ -3739,9 +3739,9 @@
 
   "menu.section.explore_projects": "Projects",
 
-  "menu.section.explore_fundings_and_projects": "Fundings & Projects",
+  "menu.section.explore_fundings_and_projects": "Projects",
 
-  "menu.section.communities_and_collections": "Communities & Collections",
+  "menu.section.communities_and_collections": "Organizational units",
 
 
 
@@ -7125,4 +7125,6 @@
   "admin.system-wide-alert.breadcrumbs": "System-wide Alerts",
 
   "admin.system-wide-alert.title": "System-wide Alerts",
+
+  "home-news.message": "Hello (en)",
 }

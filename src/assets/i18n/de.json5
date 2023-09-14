@@ -6342,19 +6342,20 @@
 
   // "menu.section.explore_infrastructure": "Infrastructure",
   // TODO New key - Add a translation
-  "menu.section.explore_infrastructure": "Infrastructure",
+  "menu.section.explore_infrastructure": "Geraete",
 
   // "menu.section.explore_publications": "Research Outputs",
   // TODO New key - Add a translation
-  "menu.section.explore_publications": "Research Outputs",
+  "menu.section.explore_publications": "Publikationen",
 
+  // NAVBAR
   // "menu.section.explore_researchoutputs": "Research Outputs",
   // TODO New key - Add a translation
-  "menu.section.explore_researchoutputs": "Research Outputs",
+  "menu.section.explore_researchoutputs": "Publikationen",
 
   // "menu.section.explore_researcherprofiles": "People",
   // TODO New key - Add a translation
-  "menu.section.explore_researcherprofiles": "People",
+  "menu.section.explore_researcherprofiles": "Personen",
 
   // "menu.section.explore_orgunits": "Organizations",
   // TODO New key - Add a translation
@@ -6362,19 +6363,19 @@
 
   // "menu.section.explore_fundings": "Fundings",
   // TODO New key - Add a translation
-  "menu.section.explore_fundings": "Fundings",
+  "menu.section.explore_fundings": "Foerdergelder",
 
   // "menu.section.explore_projects": "Projects",
   // TODO New key - Add a translation
-  "menu.section.explore_projects": "Projects",
+  "menu.section.explore_projects": "Projekte",
 
   // "menu.section.explore_fundings_and_projects": "Fundings & Projects",
   // TODO New key - Add a translation
-  "menu.section.explore_fundings_and_projects": "Fundings & Projects",
+  "menu.section.explore_fundings_and_projects": "Projekte",
 
   // "menu.section.communities_and_collections": "Communities & Collections",
   // TODO New key - Add a translation
-  "menu.section.communities_and_collections": "Communities & Collections",
+  "menu.section.communities_and_collections": "Organisationseinheiten",
 
 
 
@@ -6452,7 +6453,7 @@
 
   // "menu.section.icon.notifications": "Notifictions menu section",
   // TODO New key - Add a translation
-  "menu.section.icon.notifications": "Notifictions menu section",
+  "menu.section.icon.notifications": "Notifications menu section",
 
   // "menu.section.icon.find": "Find menu section",
   "menu.section.icon.find": "Menübereich Suche",
@@ -12354,5 +12355,5 @@
   // TODO New key - Add a translation
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-
+  "home-news.message": "Hallo (de)",
 }
