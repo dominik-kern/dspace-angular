@@ -10,7 +10,7 @@
       <div class="align-middle pt-2">
         <a *ngIf="node!==loadingNode" [routerLink]="[]" (click)="getNextPage(node)"
            class="btn btn-outline-primary btn-sm" role="button">
-           <i class="fas fa-angle-down"></i> {{ 'communityList.showMore' | translate }}
+           <i class="fas fa-angle-down"></i> {{ 'communityList.showMore' | translate }} More
         </a>
         <ds-themed-loading *ngIf="node===loadingNode && dataSource.loading$ | async" class="ds-themed-loading"></ds-themed-loading>
       </div>
@@ -70,7 +70,7 @@
       </button>
       <h6 class="align-middle pt-2">
         <a [routerLink]="node.route" class="lead">
-          {{node.name}}
+          {{node.name}} 
         </a>
       </h6>
     </div>

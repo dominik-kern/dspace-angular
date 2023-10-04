@@ -6375,7 +6375,7 @@
 
   // "menu.section.communities_and_collections": "Communities & Collections",
   // TODO New key - Add a translation
-  "menu.section.communities_and_collections": "Organisationseinheiten",
+  "menu.section.communities_and_collections": "<b>Organisationseinheiten</b>",
 
 
 
