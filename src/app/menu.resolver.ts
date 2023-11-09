@@ -49,6 +49,7 @@ import { environment } from '../environments/environment';
 import { SectionDataService } from './core/layout/section-data.service';
 import { Section } from './core/layout/models/section.model';
 import { NOTIFICATIONS_RECITER_SUGGESTION_PATH } from './admin/admin-notifications/admin-notifications-routing-paths';
+import { LinkIconMenuItemModel } from './shared/menu/menu-item/models/linkicon.model';
 
 /**
  * Creates all of the app's menus
@@ -107,10 +108,11 @@ export class MenuResolver implements Resolve<boolean> {
       visible: environment.layout.navbar.showCommunityCollection,
       index: 0,
       model: {
-        type: MenuItemType.LINK,
+        type: MenuItemType.LINKICON,
         text: `menu.section.communities_and_collections`,
-        link: `/community-list`
-      } as LinkMenuItemModel
+        link: `/community-list`,
+        icon: 'fa fa-university'
+      } as LinkIconMenuItemModel
     };
 
     if (environment.layout.navbar.showCommunityCollection) {
@@ -120,7 +122,7 @@ export class MenuResolver implements Resolve<boolean> {
     // Read the different Browse-By types from config and add them to the browse menu
     this.sectionDataService.findVisibleSections().pipe(
       getFirstCompletedRemoteData()
-    ).subscribe( (sectionDefListRD: RemoteData<PaginatedList<Section>>) => {
+    ).subscribe((sectionDefListRD: RemoteData<PaginatedList<Section>>) => {
       if (sectionDefListRD.hasSucceeded) {
         sectionDefListRD.payload.page.forEach((section) => {
           let parentMenu: any = {
@@ -130,35 +132,100 @@ export class MenuResolver implements Resolve<boolean> {
           };
           if (section.nestedSections && section.nestedSections.length) {
             section.nestedSections.forEach((nested) => {
-              menuList.push({
+              /*menuList.push({
                 id: `explore_nested_${nested.id}`,
                 parentID: `explore_${section.id}`,
                 active: false,
-                visible: true,
+                visible: true,*/
+              if (environment.layout.navbar.showExploreIcons && environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(nested.id)) !== undefined) {
+                const config = environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(nested.id));
+                menuList.push({
+                  id: `explore_nested_${nested.id}`,
+                  parentID: `explore_${section.id}`,
+                  active: false,
+                  visible: true,
+                  model: {
+                    type: MenuItemType.LINKICON,
+                    text: `menu.section.explore_${nested.id}`,
+                    icon: config.icon || undefined,
+                    link: `/explore/${nested.id}`
+                  } as LinkIconMenuItemModel
+                });
+              } else {
+                menuList.push({
+                  id: `explore_nested_${nested.id}`,
+                  parentID: `explore_${section.id}`,
+                  active: false,
+                  visible: true,
+                  model: {
+                    type: MenuItemType.LINK,
+                    text: `menu.section.explore_${nested.id}`,
+                    link: `/explore/${nested.id}`
+                  } as LinkMenuItemModel
+                });
+              }
+            });
+            if (environment.layout.navbar.showExploreIcons && environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(section.id)) !== undefined) {
+              const config = environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(section.id));
+              parentMenu = {
+                ...parentMenu,
+                model: {
+                  type: MenuItemType.LINKICON,
+                  text: `menu.section.explore_${section.id}`,
+                  icon: config.icon || undefined,
+                } as LinkIconMenuItemModel,
+              };
+            } else {
+              parentMenu = {
+                ...parentMenu,
+                index: 1,
+                model: {
+                  type: MenuItemType.TEXT,
+                  text: `menu.section.explore_${section.id}`
+                } as TextMenuItemModel,
+              };
+            }
+          } else {
+            if (environment.layout.navbar.showExploreIcons && environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(section.id)) !== undefined) {
+              const config = environment.layout.navbar.showExploreIcons.find(value => value.explore_id.match(section.id));
+              parentMenu = {
+                ...parentMenu,
+                model: {
+                  type: MenuItemType.LINKICON,
+                  text: `menu.section.explore_${section.id}`,
+                  icon: config.icon || undefined,
+                  link: `/explore/${section.id}`
+                } as LinkIconMenuItemModel
+              };
+            } else {
+              parentMenu = {
+                ...parentMenu,
                 model: {
                   type: MenuItemType.LINK,
-                  text: `menu.section.explore_${nested.id}`,
-                  link: `/explore/${nested.id}`
+                  text: `menu.section.explore_${section.id}`,
+                  link: `/explore/${section.id}`
                 } as LinkMenuItemModel
-              });
-            });
-            parentMenu = {
-              ...parentMenu,
-              index: 1,
-              model: {
-                type: MenuItemType.TEXT,
-                text: `menu.section.explore_${section.id}`
-              } as TextMenuItemModel,
-            };
-          } else {
-            parentMenu = {
-              ...parentMenu,
-              model: {
-                type: MenuItemType.LINK,
-                text: `menu.section.explore_${section.id}`,
-                link: `/explore/${section.id}`
-              } as LinkMenuItemModel
-            };
+                /*  });
+                });
+                parentMenu = {
+                  ...parentMenu,
+                  index: 1,
+                  model: {
+                    type: MenuItemType.TEXT,
+                    text: `menu.section.explore_${section.id}`
+                  } as TextMenuItemModel,
+                };
+              } else {
+                parentMenu = {
+                  ...parentMenu,
+                  model: {
+                    type: MenuItemType.LINK,
+                    text: `menu.section.explore_${section.id}`,
+                    link: `/explore/${section.id}`
+                  } as LinkMenuItemModel
+                  };*/
+              };
+            }
           }
           menuList.push(parentMenu);
         });
