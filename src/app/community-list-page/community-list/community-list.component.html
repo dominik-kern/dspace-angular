@@ -23,7 +23,7 @@
   <!-- This is the tree node template for expandable nodes (coms and subcoms with children) -->
   <cdk-tree-node *cdkTreeNodeDef="let node; when: hasChild" cdkTreeNodePadding
                  class="example-tree-node expandable-node">
-    <div class="btn-group">
+    <div class="btn-group" *ngIf="node.name!='Personen' && node.name!='Projekte' && node.name!='Publikationen'">
       <button type="button" class="btn btn-default" cdkTreeNodeToggle
               [title]="'toggle ' + node.name"
               [attr.aria-label]="'toggle ' + node.name"
@@ -39,7 +39,7 @@
       </h5>
     </div>
     <ds-truncatable [id]="node.id">
-      <div class="text-muted" cdkTreeNodePadding>
+      <div class="text-muted" cdkTreeNodePadding *ngIf="node.name!='Personen' && node.name!='Projekte' && node.name!='Publikationen'">
         <div class="d-flex" *ngIf="node.payload.shortDescription">
           <button type="button" class="btn btn-default invisible">
             <span class="{{node.isExpanded ? 'fa fa-chevron-down' : 'fa fa-chevron-right'}}"

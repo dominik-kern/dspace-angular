@@ -6158,6 +6158,8 @@
 
   "submission.sections.submit.progressbar.accessCondition": "Item access conditions",
 
+  "submission.sections.submit.progressbar.collection": "Collection selection",
+
   "submission.sections.submit.progressbar.CClicense": "Creative commons license",
 
   "submission.sections.submit.progressbar.CustomUrlStep": "Custom url",
@@ -6180,7 +6182,9 @@
 
   "submission.sections.submit.progressbar.describe.patent_references": "Patent references",
 
-  "submission.sections.submit.progressbar.describe.person": "Person basic information",
+  "submission.sections.submit.progressbar.describe.person": "Basic information",
+  
+  "submission.sections.submit.progressbar.describe.person_detail": "Details",
 
   "submission.sections.submit.progressbar.describe.product": "Product basic information",
 
