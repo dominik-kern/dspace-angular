@@ -68,7 +68,7 @@
   <!-- This is the tree node template for leaf nodes (collections and (sub)coms without children) -->
   <cdk-tree-node *cdkTreeNodeDef="let node; when: !(hasChild && isShowMore)" cdkTreeNodePadding
                  class="example-tree-node childless-node">
-    <div class="btn-group">
+    <div class="btn-group" *ngIf="node.name!='Personen' && node.name!='Projekte' && node.name!='Publikationen'">
       <button type="button" class="btn btn-default" cdkTreeNodeToggle>
         <span class="fa fa-chevron-right invisible" aria-hidden="true"></span>
       </button>
