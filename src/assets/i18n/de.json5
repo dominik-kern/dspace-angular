@@ -1536,7 +1536,7 @@
   "browse.back.all-results": "Filter zurücksetzen",
 
   // "browse.comcol.by.author": "By Author",
-  "browse.comcol.by.author": "Nach Autor:in",
+  "browse.comcol.by.author": "Nach Autor",
 
   // "browse.comcol.by.dateissued": "By Issue Date",
   "browse.comcol.by.dateissued": "Nach Erscheinungsjahr",
@@ -1579,7 +1579,7 @@
   "browse.empty": "Es gibt keine Items, die angezeigt werden können.",
 
   // "browse.metadata.author": "Author",
-  "browse.metadata.author": "Autor:in",
+  "browse.metadata.author": "Autor",
 
   // "browse.metadata.dateissued": "Issue Date",
   "browse.metadata.dateissued": "Erscheinungsdatum",
@@ -1627,7 +1627,7 @@
   "browse.metadata.title": "Titel",
 
   // "browse.metadata.author.breadcrumbs": "Browse by Author",
-  "browse.metadata.author.breadcrumbs": "Auflistung nach Autor:in",
+  "browse.metadata.author.breadcrumbs": "Auflistung nach Autor",
 
   // "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
   "browse.metadata.dateissued.breadcrumbs": "Auflistung nach Datum",
@@ -1906,7 +1906,7 @@
   "collection.edit.item-mapper.confirm": "Ausgewählte Items spiegeln",
 
   // "collection.edit.item-mapper.description": "This is the item mapper tool that allows collection administrators to map items from other collections into this collection. You can search for items from other collections and map them, or browse the list of currently mapped items.",
-  "collection.edit.item-mapper.description": "Sammlungsadministrator:innen haben die Möglichkeit Items von einer Sammlung in eine andere zu spiegeln. Man kann nach Items in anderen Sammlungen suchen und diese spiegeln oder sich eine Liste der gespiegelten Items anzeigen lassen.",
+  "collection.edit.item-mapper.description": "Sammlungsadministratoren haben die Möglichkeit Items von einer Sammlung in eine andere zu spiegeln. Man kann nach Items in anderen Sammlungen suchen und diese spiegeln oder sich eine Liste der gespiegelten Items anzeigen lassen.",
 
   // "collection.edit.item-mapper.head": "Item Mapper - Map Items from Other Collections",
   "collection.edit.item-mapper.head": "Item spiegeln - Spiegelt Items aus anderen Sammlungen",
@@ -2476,17 +2476,17 @@
 
 
   // "comcol-role.edit.community-admin.name": "Administrators",
-  "comcol-role.edit.community-admin.name": "Administrator:innen",
+  "comcol-role.edit.community-admin.name": "Administratoren",
 
   // "comcol-role.edit.collection-admin.name": "Administrators",
-  "comcol-role.edit.collection-admin.name": "Administrator:innen",
+  "comcol-role.edit.collection-admin.name": "Administratoren",
 
 
   // "comcol-role.edit.community-admin.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
-  "comcol-role.edit.community-admin.description": "Community-Administrator:innen können Teilbereiche oder Sammlungen erstellen, verwalten oder die Verwaltung anderen zuweisen. Darüber hinaus entscheiden sie, wer Items zu einer Teilsammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) und bestehende Items von anderen Sammlungen verknüpfen kann (vorbehaltlich einer Berechtigung).",
+  "comcol-role.edit.community-admin.description": "Community-Administratoren können Teilbereiche oder Sammlungen erstellen, verwalten oder die Verwaltung anderen zuweisen. Darüber hinaus entscheiden sie, wer Items zu einer Teilsammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) und bestehende Items von anderen Sammlungen verknüpfen kann (vorbehaltlich einer Berechtigung).",
 
   // "comcol-role.edit.collection-admin.description": "Collection administrators decide who can submit items to the collection, edit item metadata (after submission), and add (map) existing items from other collections to this collection (subject to authorization for that collection).",
-  "comcol-role.edit.collection-admin.description": "Sammlungsadministrator:innen entscheiden, wer Items zu einer Sammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) and und bestehende Items von anderen Sammlungen mit dieser Sammlung verknüpfen kann (vorbehaltlich einer Berechtigung für diese Sammlung).",
+  "comcol-role.edit.collection-admin.description": "Sammlungsadministratoren entscheiden, wer Items zu einer Sammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) and und bestehende Items von anderen Sammlungen mit dieser Sammlung verknüpfen kann (vorbehaltlich einer Berechtigung für diese Sammlung).",
 
 
   // "comcol-role.edit.submitters.name": "Submitters",
@@ -2510,31 +2510,31 @@
   "comcol-role.edit.bitstream_read.name": "Standardeinstellungen für den Lesezugriff auf Dateien",
 
   // "comcol-role.edit.bitstream_read.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
-  "comcol-role.edit.bitstream_read.description": "Community-Administrator:innen können Teilbereiche oder Sammlungen erstellen, verwalten oder die Verwaltung anderen zuweisen. Darüber hinaus entscheiden sie, wer Items zu einer Teilsammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) und bestehende Items von anderen Sammlungen verknüpfen kann (vorbehaltlich einer Berechtigung).",
+  "comcol-role.edit.bitstream_read.description": "Community-Administratoren können Teilbereiche oder Sammlungen erstellen, verwalten oder die Verwaltung anderen zuweisen. Darüber hinaus entscheiden sie, wer Items zu einer Teilsammlung einreichen, Item-Metadaten bearbeiten (nach der Einreichung) und bestehende Items von anderen Sammlungen verknüpfen kann (vorbehaltlich einer Berechtigung).",
 
   // "comcol-role.edit.bitstream_read.anonymous-group": "Default read for incoming bitstreams is currently set to Anonymous.",
   "comcol-role.edit.bitstream_read.anonymous-group": "Freigeschaltete Dateien sind standardmäßig für jede:n öffentlich sichtbar.",
 
 
   // "comcol-role.edit.editor.name": "Editors",
-  "comcol-role.edit.editor.name": "Redakteur:innen",
+  "comcol-role.edit.editor.name": "Redakteuren",
 
   // "comcol-role.edit.editor.description": "Editors are able to edit the metadata of incoming submissions, and then accept or reject them.",
   "comcol-role.edit.editor.description": "Die Redakteure können die Metadaten der eingehenden Beiträge bearbeiten und sie dann annehmen oder ablehnen.",
 
 
   // "comcol-role.edit.finaleditor.name": "Final editors",
-  "comcol-role.edit.finaleditor.name": "Endredakteur:innen",
+  "comcol-role.edit.finaleditor.name": "Endredakteuren",
 
   // "comcol-role.edit.finaleditor.description": "Final editors are able to edit the metadata of incoming submissions, but will not be able to reject them.",
-  "comcol-role.edit.finaleditor.description": "Die Endredakteur:innen können die Metadaten der eingehenden Beiträge bearbeiten, sie können sie jedoch nicht ablehnen.",
+  "comcol-role.edit.finaleditor.description": "Die Endredakteuren können die Metadaten der eingehenden Beiträge bearbeiten, sie können sie jedoch nicht ablehnen.",
 
 
   // "comcol-role.edit.reviewer.name": "Reviewers",
-  "comcol-role.edit.reviewer.name": "Prüfer:innen",
+  "comcol-role.edit.reviewer.name": "Prüferen",
 
   // "comcol-role.edit.reviewer.description": "Reviewers are able to accept or reject incoming submissions. However, they are not able to edit the submission's metadata.",
-  "comcol-role.edit.reviewer.description": "Die Prüfer:innen können eingehende Beiträge annehmen oder ablehnen. Sie können jedoch nicht die Metadaten der Einreichung bearbeiten.",
+  "comcol-role.edit.reviewer.description": "Die Prüferen können eingehende Beiträge annehmen oder ablehnen. Sie können jedoch nicht die Metadaten der Einreichung bearbeiten.",
 
 
   // "comcol-role.edit.scorereviewers.name": "Score Reviewers",
@@ -3099,7 +3099,7 @@
 
 
   // "deny-request-copy.email.message": "Dear {{ recipientName }},\nIn response to your request I regret to inform you that it's not possible to send you a copy of the file(s) you have requested, concerning the document: \"{{ itemUrl }}\" ({{ itemName }}), of which I am an author.\n\nBest regards,\n{{ authorName }} <{{ authorEmail }}>",
-  "deny-request-copy.email.message": "Sehr geehrte:r {{ recipientName }},\nLeider kann ich Ihnen die angeforderte Datei zu meiner Veröffentlichung \"{{ itemUrl }}\" ({{ itemName }}) nicht schicken.\n\nMit freundlichen Grüßen\n{{ authorName }} <{{ authorEmail }}>",
+  "deny-request-copy.email.message": "Sehr geehrter {{ recipientName }},\nLeider kann ich Ihnen die angeforderte Datei zu meiner Veröffentlichung \"{{ itemUrl }}\" ({{ itemName }}) nicht schicken.\n\nMit freundlichen Grüßen\n{{ authorName }} <{{ authorEmail }}>",
 
   // "deny-request-copy.email.subject": "Request copy of document",
   // TODO New key - Add a translation
@@ -4126,7 +4126,7 @@
   "grant-deny-request-copy.home-page": "Zur Startseite",
 
   // "grant-deny-request-copy.intro1": "If you are one of the authors of the document <a href='{{ url }}'>{{ name }}</a>, then please use one of the options below to respond to the user's request.",
-  "grant-deny-request-copy.intro1": "Wenn Sie ein:e Autor:in des Dokuments <a href='{{ url }}'>{{ name }}</a> sind, wählen Sie bitte eine der Antwortmöglichkeiten aus#.",
+  "grant-deny-request-copy.intro1": "Wenn Sie ein Autor des Dokuments <a href='{{ url }}'>{{ name }}</a> sind, wählen Sie bitte eine der Antwortmöglichkeiten aus#.",
 
   // "grant-deny-request-copy.intro2": "After choosing an option, you will be presented with a suggested email reply which you may edit.",
   // TODO New key - Add a translation
@@ -4139,7 +4139,7 @@
 
 
   // "grant-request-copy.email.message": "Dear {{ recipientName }},\nIn response to your request I have the pleasure to send you in attachment a copy of the file(s) concerning the document: \"{{ itemUrl }}\" ({{ itemName }}), of which I am an author.\n\nBest regards,\n{{ authorName }} <{{ authorEmail }}>",
-  "grant-request-copy.email.message": "Sehr geehrte:r {{ recipientName }}, vielen Dank für Ihre Anfrage. Gerne schicke ich Ihnen die Datei zu meiner Veröffentlichung: \"{{ itemUrl }}\" ({{ itemName }}). \nMit freundlichen Grüßen,\n{{ authorName }} <{{ authorEmail }}>",
+  "grant-request-copy.email.message": "Sehr geehrter {{ recipientName }}, vielen Dank für Ihre Anfrage. Gerne schicke ich Ihnen die Datei zu meiner Veröffentlichung: \"{{ itemUrl }}\" ({{ itemName }}). \nMit freundlichen Grüßen,\n{{ authorName }} <{{ authorEmail }}>",
 
   // "grant-request-copy.email.subject": "Request copy of document",
   // TODO New key - Add a translation
@@ -4639,7 +4639,7 @@
   "item.edit.item-mapper.cancel": "Abbrechen",
 
   // "item.edit.item-mapper.description": "This is the item mapper tool that allows administrators to map this item to other collections. You can search for collections and map them, or browse the list of collections the item is currently mapped to.",
-  "item.edit.item-mapper.description": "Sammlungsadministrator:innen haben die Möglichkeit Items von einer Sammlung in eine andere zu spiegeln. Man kann nach Items in anderen Sammlungen suchen und diese spiegeln oder sich eine Liste der gespiegelten Items anzeigen lassen.",
+  "item.edit.item-mapper.description": "Sammlungsadministratoren haben die Möglichkeit Items von einer Sammlung in eine andere zu spiegeln. Man kann nach Items in anderen Sammlungen suchen und diese spiegeln oder sich eine Liste der gespiegelten Items anzeigen lassen.",
 
   // "item.edit.item-mapper.head": "Item Mapper - Map Item to Collections",
   "item.edit.item-mapper.head": "Item spiegeln - Spiegelt ein Item in andere Sammlungen",
@@ -5214,7 +5214,7 @@
   "item.page.abstract": "Zusammenfassung",
 
   // "item.page.author": "Authors",
-  "item.page.author": "Autor:innen",
+  "item.page.author": "Autoren",
 
   // "item.page.citation": "Citation",
   "item.page.citation": "Zitierform",
@@ -5349,7 +5349,7 @@
   "item.page.metric.label.plumX": "PlumX",
 
   // "item.page.person.search.title": "Articles by this author",
-  "item.page.person.search.title": "Veröffentlichungen dieses:dieser Autor:in",
+  "item.page.person.search.title": "Veröffentlichungen dieses:dieser Autor",
 
   // "item.page.related-items.view-more": "Show {{ amount }} more",
   "item.page.related-items.view-more": "{{ amount }} mehr anzeigen",
@@ -5364,7 +5364,7 @@
   "item.page.relationships.isJournalOfPublication": "Veröffentlichungen",
 
   // "item.page.relationships.isOrgUnitOfPerson": "Authors",
-  "item.page.relationships.isOrgUnitOfPerson": "Autor:innen",
+  "item.page.relationships.isOrgUnitOfPerson": "Autoren",
 
   // "item.page.relationships.isOrgUnitOfProject": "Research Projects",
   "item.page.relationships.isOrgUnitOfProject": "Forschungsprojekte",
@@ -5463,7 +5463,7 @@
   "item.preview.dc.contributor.advisor": "Advisor",
 
   // "item.preview.dc.contributor.author": "Authors:",
-  "item.preview.dc.contributor.author": "Autor:innen:",
+  "item.preview.dc.contributor.author": "Autoren:",
 
   // "item.preview.dc.contributor.applicant": "Applicant",
   // TODO New key - Add a translation
@@ -5652,7 +5652,7 @@
   "item.select.empty": "Es gibt keine Items, die angezeigt werden können.",
 
   // "item.select.table.author": "Author",
-  "item.select.table.author": "Autor:in",
+  "item.select.table.author": "Autor",
 
   // "item.select.table.collection": "Collection",
   "item.select.table.collection": "Sammlung",
@@ -5685,7 +5685,7 @@
   "item.version.history.table.item": "Item",
 
   // "item.version.history.table.editor": "Editor",
-  "item.version.history.table.editor": "Herausgeber:in",
+  "item.version.history.table.editor": "Herausgeber",
 
   // "item.version.history.table.date": "Date",
   "item.version.history.table.date": "Datum",
@@ -6028,7 +6028,7 @@
   "journal.page.edit": "Dieses Item bearbeiten",
 
   // "journal.page.editor": "Editor-in-Chief",
-  "journal.page.editor": "Chefredakteur:in",
+  "journal.page.editor": "Chefredakteur",
 
   // "journal.page.issn": "ISSN",
   "journal.page.issn": "ISSN",
@@ -6357,7 +6357,7 @@
   "menu.section.browse_community": "Dieser Bereich",
 
   // "menu.section.browse_community_by_author": "By Author",
-  "menu.section.browse_community_by_author": "Nach Autor:in",
+  "menu.section.browse_community_by_author": "Nach Autor",
 
   // "menu.section.browse_community_by_issue_date": "By Issue Date",
   "menu.section.browse_community_by_issue_date": "Nach Erscheinungsdatum",
@@ -6966,7 +6966,7 @@
   "mydspace.results.no-abstract": "Keine Zusammenfassung",
 
   // "mydspace.results.no-authors": "No Authors",
-  "mydspace.results.no-authors": "Keine Autor:innen",
+  "mydspace.results.no-authors": "Keine Autoren",
 
   // "mydspace.results.no-collections": "No Collections",
   "mydspace.results.no-collections": "Keine Sammlungen",
@@ -7756,7 +7756,7 @@
   "process.overview.table.status": "Status",
 
   // "process.overview.table.user" : "User",
-  "process.overview.table.user": "Benutzer:in",
+  "process.overview.table.user": "Benutzer",
 
   // "process.overview.title": "Processes Overview",
   "process.overview.title": "Überblick der Prozesse",
@@ -8301,13 +8301,13 @@
   "relationships.add.error.title": "Beziehung kann nicht hinzugefügt werden",
 
   // "relationships.isAuthorOf": "Authors",
-  "relationships.isAuthorOf": "Autor:innen",
+  "relationships.isAuthorOf": "Autoren",
 
   // "relationships.isAuthorOf.Person": "Authors (persons)",
-  "relationships.isAuthorOf.Person": "Autor:innen (Personen)",
+  "relationships.isAuthorOf.Person": "Autoren (Personen)",
 
   // "relationships.isAuthorOf.OrgUnit": "Authors (organizational units)",
-  "relationships.isAuthorOf.OrgUnit": "Autor:innen (Organisationseinheiten)",
+  "relationships.isAuthorOf.OrgUnit": "Autoren (Organisationseinheiten)",
 
   // "relationships.isIssueOf": "Journal Issues",
   "relationships.isIssueOf": "Zeitschriftenhefte",
@@ -8322,7 +8322,7 @@
   "relationships.isOrgUnitOf": "Organisationseinheiten",
 
   // "relationships.isPersonOf": "Authors",
-  "relationships.isPersonOf": "Autor:innen",
+  "relationships.isPersonOf": "Autoren",
 
   // "relationships.isProjectOf": "Research Projects",
   "relationships.isProjectOf": "Forschungsvorhaben",
@@ -8561,7 +8561,7 @@
 
 
   // "search.filters.applied.f.author": "Author",
-  "search.filters.applied.f.author": "Autor:in",
+  "search.filters.applied.f.author": "Autor",
 
   // "search.filters.applied.f.dateIssued.max": "End date",
   "search.filters.applied.f.dateIssued.max": "Enddatum",
@@ -8616,7 +8616,7 @@
   "search.filters.applied.f.subject": "Thema",
 
   // "search.filters.applied.f.submitter": "Submitter",
-  "search.filters.applied.f.submitter": "Einreichende:r",
+  "search.filters.applied.f.submitter": "Einreichender",
 
   // "search.filters.applied.f.jobTitle": "Job Title",
   "search.filters.applied.f.jobTitle": "Berufsbezeichnung",
@@ -8714,10 +8714,10 @@
 
 
   // "search.filters.filter.author.head": "Author",
-  "search.filters.filter.author.head": "Autor:in",
+  "search.filters.filter.author.head": "Autor",
 
   // "search.filters.filter.author.placeholder": "Author name",
-  "search.filters.filter.author.placeholder": "Autor:innenname",
+  "search.filters.filter.author.placeholder": "Autorenname",
 
   // "search.filters.filter.author.label": "Search author name",
   "search.filters.filter.author.label": "Autorensuche",
@@ -8754,10 +8754,10 @@
   "search.filters.filter.creativeDatePublished.label": "Search date published",
 
   // "search.filters.filter.creativeWorkEditor.head": "Editor",
-  "search.filters.filter.creativeWorkEditor.head": "Herausgeber:in",
+  "search.filters.filter.creativeWorkEditor.head": "Herausgeber",
 
   // "search.filters.filter.creativeWorkEditor.placeholder": "Editor",
-  "search.filters.filter.creativeWorkEditor.placeholder": "Herausgeber:in",
+  "search.filters.filter.creativeWorkEditor.placeholder": "Herausgeber",
 
   // "search.filters.filter.creativeWorkEditor.label": "Search editor",
   // TODO New key - Add a translation
@@ -9043,10 +9043,10 @@
   "search.filters.filter.subject.label": "Search subject",
 
   // "search.filters.filter.submitter.head": "Submitter",
-  "search.filters.filter.submitter.head": "Einreichende:r",
+  "search.filters.filter.submitter.head": "Einreichender",
 
   // "search.filters.filter.submitter.placeholder": "Submitter",
-  "search.filters.filter.submitter.placeholder": "Einreichende:r",
+  "search.filters.filter.submitter.placeholder": "Einreichender",
 
   // "search.filters.filter.submitter.label": "Search submitter",
   // TODO New key - Add a translation
@@ -10082,7 +10082,7 @@
   "submission.sections.describe.relationship-lookup.external-source.added": "Der lokale Eintrage wurde erfolgreich zur Auswahl hinzugefügt.",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-button-title.isAuthorOfPublication": "Import remote author",
-  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isAuthorOfPublication": "Importiere Autor:innen-Metadaten",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isAuthorOfPublication": "Importiere Autoren-Metadaten",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal": "Import remote journal",
   "submission.sections.describe.relationship-lookup.external-source.import-button-title.Journal": "Zeitschrift importieren",
@@ -10114,7 +10114,7 @@
   "submission.sections.describe.relationship-lookup.external-source.import-modal.head.openAIREFunding": "Funding OpenAIRE API",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.title": "Import Remote Author",
-  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.title": "Importiere Autor:innen-Metadaten",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.title": "Importiere Autoren-Metadaten",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-button-title.Person": "Import remote person",
   // TODO New key - Add a translation
@@ -10157,10 +10157,10 @@
   "submission.sections.describe.relationship-lookup.external-source.import-modal.Author.title": "Import Remote Author",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.local-entity": "Successfully added local author to the selection",
-  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.local-entity": "Lokal:e Autor:in wurde der Auswahl hinzugefügt",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.local-entity": "Lokaler Autor wurde der Auswahl hinzugefügt",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.new-entity": "Successfully imported and added external author to the selection",
-  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.new-entity": "Externe:r Autor:in wurde importiert und zur Auswahl hinzugefügt",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAuthorOfPublication.added.new-entity": "Externer Autor wurde importiert und zur Auswahl hinzugefügt",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.authority": "Authority",
   "submission.sections.describe.relationship-lookup.external-source.import-modal.authority": "Referenz",
@@ -10264,7 +10264,7 @@
   "submission.sections.describe.relationship-lookup.selected": "{{ size }} Items ausgewählt",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAuthorOfPublication": "Local Authors ({{ count }})",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAuthorOfPublication": "Lokale Autor:innen ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAuthorOfPublication": "Lokale Autoren ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Local Journals ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Lokale Zeitschriften ({{ count }})",
@@ -10275,7 +10275,7 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.Publication": "Lokale Publicationen ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.Person": "Local Authors ({{ count }})",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Person": "Lokale Autor:innen ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.Person": "Lokale Autoren ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.OrgUnit": "Local Organizational Units ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.OrgUnit": "Lokale Organisationseinheiten ({{ count }})",
@@ -10386,7 +10386,7 @@
   "submission.sections.describe.relationship-lookup.title.isJournalOfPublication": "Zeitschriften",
 
   // "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Authors",
-  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Autor:innen",
+  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Autoren",
 
   // "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
   "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Fördereinrichtung",
@@ -10397,7 +10397,7 @@
   "submission.sections.describe.relationship-lookup.title.Publication": "Publikationen",
 
   // "submission.sections.describe.relationship-lookup.title.Person": "Authors",
-  "submission.sections.describe.relationship-lookup.title.Person": "Autor:innen",
+  "submission.sections.describe.relationship-lookup.title.Person": "Autoren",
 
   // "submission.sections.describe.relationship-lookup.title.OrgUnit": "Organizational Units",
   "submission.sections.describe.relationship-lookup.title.OrgUnit": "Organisationseinheiten",
@@ -10431,7 +10431,7 @@
   "submission.sections.describe.relationship-lookup.selection-tab.no-selection": "Ihre Auswahl ist momentan leer.",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isAuthorOfPublication": "Selected Authors",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.isAuthorOfPublication": "Ausgewählte Autor:innen",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isAuthorOfPublication": "Ausgewählte Autoren",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalOfPublication": "Selected Journals",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalOfPublication": "Ausgewählte Zeitschriften",
@@ -10445,7 +10445,7 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title.Publication": "Ausgewählte Publikationen",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Selected Authors",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Ausgewählte Autor:innen",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Ausgewählte Autoren",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.OrgUnit": "Selected Organizational Units",
   "submission.sections.describe.relationship-lookup.selection-tab.title.OrgUnit": "Ausgewählte Organisationseinheiten",
@@ -11196,7 +11196,7 @@
   "submission.workflow.tasks.generic.processing": "Verarbeitung läuft...",
 
   // "submission.workflow.tasks.generic.submitter": "Submitter",
-  "submission.workflow.tasks.generic.submitter": "Einreichende:r",
+  "submission.workflow.tasks.generic.submitter": "Einreichender",
 
   // "submission.workflow.tasks.generic.success": "Operation successful",
   "submission.workflow.tasks.generic.success": "Aktion erfolgreich",
