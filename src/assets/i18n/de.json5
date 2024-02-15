@@ -1466,15 +1466,15 @@
 
   "comcol-role.edit.bitstream_read.anonymous-group": "Freigeschaltete Dateien sind standardmäßig für jede:n öffentlich sichtbar.",
 
-  "comcol-role.edit.editor.name": "Redakteuren",
+  "comcol-role.edit.editor.name": "Redakteure",
 
   "comcol-role.edit.editor.description": "Die Redakteure können die Metadaten der eingehenden Beiträge bearbeiten und sie dann annehmen oder ablehnen.",
 
-  "comcol-role.edit.finaleditor.name": "Endredakteuren",
+  "comcol-role.edit.finaleditor.name": "Endredakteure",
 
   "comcol-role.edit.finaleditor.description": "Die Endredakteuren können die Metadaten der eingehenden Beiträge bearbeiten, sie können sie jedoch nicht ablehnen.",
 
-  "comcol-role.edit.reviewer.name": "Prüferen",
+  "comcol-role.edit.reviewer.name": "Prüfer",
 
   "comcol-role.edit.reviewer.description": "Die Prüferen können eingehende Beiträge annehmen oder ablehnen. Sie können jedoch nicht die Metadaten der Einreichung bearbeiten.",
 
