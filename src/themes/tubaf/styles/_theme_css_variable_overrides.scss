@@ -8,6 +8,14 @@
   --ds-home-news-link-hover-color: #{darken($yellow, 15%)};
   --ds-header-navbar-border-top-color: #{$gray-800};
   --ds-header-navbar-border-bottom-color: #{$gray-800};
-  --ds-navbar-link-color-hover: #ced4da;   //DK variables were better
+  --ds-navbar-bg: #{$blue}; //DK
+  --ds-navbar-link-color: #{$gray-100};   //DK 
+  --ds-navbar-link-color-hover: #{$gray-400};   //DK 
+  --ds-header-bg: #{$blue}; //DK
+  --ds-header-icon-color-hover: #{$gray-400};   //DK 
+  --ds-header-icon-color: #{$gray-100};   //DK 
+  --ds-expandable-navbar-bg: #{$blue-trans}; //DK
+  --ds-expandable-navbar-link-color: #{$gray-100};   //DK 
+  --ds-expandable-navbar-link-color-hover: #{$gray-400};   //DK 
 }
 

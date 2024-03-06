@@ -1,5 +1,11 @@
+ui:
+  ssl: false 
+  host: localhost 
+  port: 4000
+  nameSpace: /
+
 rest:
   ssl: true
-  host: dspacecris7.4science.cloud
+  host: ub-fisdev-backend.ub.tu-freiberg.de 
   port: 443
   nameSpace: /server

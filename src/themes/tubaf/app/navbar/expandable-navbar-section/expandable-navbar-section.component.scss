@@ -6,19 +6,19 @@
 }
 
 .dropdown-menu {
-    background-color: #0064a8aa; // DK variables were better, e.g.:   var(--ds-expandable-navbar-bg);
+    background-color: var(--ds-expandable-navbar-bg); // DK #0064a8aa variables were better, e.g.:   var(--ds-expandable-navbar-bg);
     overflow: hidden;
     min-width: 100%;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     ::ng-deep a.nav-link {
-        color:  #f8f9fa;   //DK var(--ds-expandable-navbar-link-color) !important;
+        color: var(--ds-expandable-navbar-link-color) !important; ;   //DK #f8f9fa var(--ds-expandable-navbar-link-color) !important;
         padding-right: var(--bs-spacer);
         padding-left: var(--bs-spacer);
         white-space: nowrap;
 
         &:hover, &:focus {
-            color: #ced4da;   //DK var(--ds-expandable-navbar-link-color-hover) !important;
+            color: var(--ds-expandable-navbar-link-color-hover) !important;   // #ced4da DK var(--ds-expandable-navbar-link-color-hover) !important;
         }
     }
 }
