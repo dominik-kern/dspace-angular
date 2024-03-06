@@ -25,7 +25,7 @@ export class FooterComponent implements OnInit {
   /**
    * A boolean representing if to show or not the top footer container
    */
-  showTopFooter = true;
+  showTopFooter = false;
   /**
    * Represents the site to show the footer metadata
    */
