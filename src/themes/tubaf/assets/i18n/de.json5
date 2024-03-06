@@ -6375,11 +6375,11 @@
 
   // "menu.section.explore_researchoutputs": "Research Outputs",
   // TODO New key - Add a translation
-  "menu.section.explore_researchoutputs": "Research Outputs",
+  "menu.section.explore_researchoutputs": "Publikationen",
 
   // "menu.section.explore_researcherprofiles": "People",
   // TODO New key - Add a translation
-  "menu.section.explore_researcherprofiles": "People",
+  "menu.section.explore_researcherprofiles": "Personen",
 
   // "menu.section.explore_orgunits": "Organizations",
   // TODO New key - Add a translation
@@ -6395,11 +6395,11 @@
 
   // "menu.section.explore_fundings_and_projects": "Fundings & Projects",
   // TODO New key - Add a translation
-  "menu.section.explore_fundings_and_projects": "Fundings & Projects",
+  "menu.section.explore_fundings_and_projects": "Projekte",
 
   // "menu.section.communities_and_collections": "Communities & Collections",
   // TODO New key - Add a translation
-  "menu.section.communities_and_collections": "Communities & Collections",
+  "menu.section.communities_and_collections": "Organisationseinheiten",
 
 
 
