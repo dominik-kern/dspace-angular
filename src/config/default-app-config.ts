@@ -279,17 +279,17 @@ export class DefaultAppConfig implements AppConfig {
     { code: 'pl', label: 'Polski', active: true },
     { code: 'pt-PT', label: 'Português', active: true },
     { code: 'pt-BR', label: 'Português do Brasil', active: true },
-    { code: 'sr-lat', label: 'Srpski (lat)', active: true},
+    { code: 'sr-lat', label: 'Srpski (lat)', active: true },
     { code: 'fi', label: 'Suomi', active: true },
     { code: 'sv', label: 'Svenska', active: true },
     { code: 'tr', label: 'Türkçe', active: true },
     { code: 'vi', label: 'Tiếng Việt', active: true },
     { code: 'kk', label: 'Қазақ', active: true },
     { code: 'bn', label: 'বাংলা', active: true },
-    { code: 'hi', label: 'हिंदी', active: true},
+    { code: 'hi', label: 'हिंदी', active: true },
     { code: 'el', label: 'Ελληνικά', active: true },
-    { code: 'sr-cyr', label: 'Српски', active: true},
-    { code: 'uk', label: 'Yкраї́нська', active: true}
+    { code: 'sr-cyr', label: 'Српски', active: true },
+    { code: 'uk', label: 'Yкраї́нська', active: true }
   ];
 
   // Browse-By Pages
@@ -514,12 +514,12 @@ export class DefaultAppConfig implements AppConfig {
       vocabulary: 'srsc',
       enabled: false
     }
-    ];
+  ];
 
   // Configuration that determines the metadata sorting of community and collection edition and creation when there are not a search query.
   comcolSelectionSort: DiscoverySortConfig = {
-    sortField:'dc.title',
-    sortDirection:'ASC',
+    sortField: 'dc.title',
+    sortDirection: 'ASC',
   };
 
   crisLayout: CrisLayoutConfig = {
@@ -612,6 +612,20 @@ export class DefaultAppConfig implements AppConfig {
     navbar: {
       // If true, show the "Community and Collections" link in the navbar; otherwise, show it in the admin sidebar
       showCommunityCollection: true,
+      showExploreIcons: [
+        {
+          explore_id: 'researchoutputs',
+          icon: 'fa file-alt'
+        },
+        {
+          explore_id: 'fundings_and_projects',
+          icon: 'fa fa-cogs'
+        },
+        {
+          explore_id: 'researcherprofiles',
+          icon: 'fa fa-users'
+        },
+      ]
     }
   };
 
