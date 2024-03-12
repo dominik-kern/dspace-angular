@@ -2517,24 +2517,24 @@
 
 
   // "comcol-role.edit.editor.name": "Editors",
-  "comcol-role.edit.editor.name": "Redakteuren",
+  "comcol-role.edit.editor.name": "Redakteure",
 
   // "comcol-role.edit.editor.description": "Editors are able to edit the metadata of incoming submissions, and then accept or reject them.",
   "comcol-role.edit.editor.description": "Die Redakteure können die Metadaten der eingehenden Beiträge bearbeiten und sie dann annehmen oder ablehnen.",
 
 
   // "comcol-role.edit.finaleditor.name": "Final editors",
-  "comcol-role.edit.finaleditor.name": "Endredakteuren",
+  "comcol-role.edit.finaleditor.name": "Endredakteure",
 
   // "comcol-role.edit.finaleditor.description": "Final editors are able to edit the metadata of incoming submissions, but will not be able to reject them.",
-  "comcol-role.edit.finaleditor.description": "Die Endredakteuren können die Metadaten der eingehenden Beiträge bearbeiten, sie können sie jedoch nicht ablehnen.",
+  "comcol-role.edit.finaleditor.description": "Die Endredakteure können die Metadaten der eingehenden Beiträge bearbeiten, sie können sie jedoch nicht ablehnen.",
 
 
   // "comcol-role.edit.reviewer.name": "Reviewers",
-  "comcol-role.edit.reviewer.name": "Prüferen",
+  "comcol-role.edit.reviewer.name": "Prüfer",
 
   // "comcol-role.edit.reviewer.description": "Reviewers are able to accept or reject incoming submissions. However, they are not able to edit the submission's metadata.",
-  "comcol-role.edit.reviewer.description": "Die Prüferen können eingehende Beiträge annehmen oder ablehnen. Sie können jedoch nicht die Metadaten der Einreichung bearbeiten.",
+  "comcol-role.edit.reviewer.description": "Die Prüfer können eingehende Beiträge annehmen oder ablehnen. Sie können jedoch nicht die Metadaten der Einreichung bearbeiten.",
 
 
   // "comcol-role.edit.scorereviewers.name": "Score Reviewers",

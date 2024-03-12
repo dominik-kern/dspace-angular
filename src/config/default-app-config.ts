@@ -615,7 +615,7 @@ export class DefaultAppConfig implements AppConfig {
       showExploreIcons: [
         {
           explore_id: 'researchoutputs',
-          icon: 'fa file-alt'
+          icon: 'fa fa-file-alt'
         },
         {
           explore_id: 'fundings_and_projects',
