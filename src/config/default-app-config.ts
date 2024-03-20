@@ -541,6 +541,10 @@ export class DefaultAppConfig implements AppConfig {
         baseUrl: 'http://www.researcherid.com/rid/'
       },
       {
+        name: 'gnd',
+        baseUrl: 'https://d-nb.info/gnd/'
+      },
+      {
         name: 'mailto',
         baseUrl: 'mailto:'
       }
