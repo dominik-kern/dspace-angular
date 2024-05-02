@@ -566,6 +566,6 @@ export const environment: BuildConfig = {
         metadataConfiguration: []
       }
     ],
-    authorMetadata: ['dc.contributor.author', 'dc.contributor.editor', 'dc.contributor.contributor', 'dc.creator'],
+    authorMetadata: ['dc.contributor.author' , 'dc.contributor.editor', 'dc.contributor.contributor', 'dc.creator'],  
   },
 };
