@@ -1826,7 +1826,7 @@
 
   "cris-layout.advanced-attachment.dc.description": "Description",
 
-  "cris-layout.advanced-attachment.no_thumbnail": "No attachment available",
+  "cris-layout.advanced-attachment.no_thumbnail": "No Thumbnail Available",
 
   "cris-layout.advanced-attachment.download": "Download",
 
@@ -3104,7 +3104,7 @@
 
   "item.truncatable-part.show-more": "Show more",
 
-  "item.truncatable-part.show-less": "Minimize",
+  "item.truncatable-part.show-less": "Collapse",
 
   "workflow-item.search.result.delete-supervision.modal.header": "Delete Supervision Order",
 
@@ -3218,7 +3218,7 @@
 
   "item.page.bitstreams.view-more": "Show more",
 
-  "item.page.bitstreams.collapse": "Minimize",
+  "item.page.bitstreams.collapse": "Collapse",
 
   "item.page.filesection.original.bundle": "Original bundle",
 
@@ -5124,7 +5124,7 @@
 
   "search.filters.filter.scope.label": "Search scope filter",
 
-  "search.filters.filter.show-less": "Minimize",
+  "search.filters.filter.show-less": "Collapse",
 
   "search.filters.filter.show-more": "Show more",
 
@@ -6556,7 +6556,7 @@
 
   "thumbnail.default.alt": "Thumbnail Image",
 
-  "thumbnail.default.placeholder": "No Document (full-text) Available",
+  "thumbnail.default.placeholder": "No Thumbnail Available",
 
   "thumbnail.project.alt": "Project Logo",
 

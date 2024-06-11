@@ -6010,7 +6010,7 @@
 
   "submission.sections.submit.progressbar.describe.product_references": "Verbindungen",
 
-  "submission.sections.submit.progressbar.describe.project": "Project basic information",
+  "submission.sections.submit.progressbar.describe.project": "Projektbeschreibung",
 
   "submission.sections.submit.progressbar.describe.publication": "Publication basic information",
 
@@ -6270,7 +6270,7 @@
 
   "submission.workflow.tasks.claimed.reject.submit": "Ablehnen",
 
-  "submission.workflow.tasks.claimed.reject_help": "Wenn Sie dieses Item begutachtet und für <strong>ungeeignet</strong> zur Aufnahme in die Sammlung befunden haben, wählen Sie bitte \"Ablehnen\". Sie können anschließend dem Einreichenden den Grund für die Ablehnung und mögliche Änderungswünsche für eine erneute Einreichung mitteilen.",
+  "submission.workflow.tasks.claimed.reject_help": "Wenn Sie dieses Item begutachtet und für <strong>ungeeignet</strong> zur Aufnahme in die Sammlung befunden haben, wählen Sie bitte \"Ablehnen\". Sie können anschließend der:dem Einreichenden den Grund für die Ablehnung und mögliche Änderungswünsche für eine erneute Einreichung mitteilen.",
 
   "submission.workflow.tasks.claimed.return": "Zurück in den gemeinsamen Aufgabenbereich",
 
@@ -6929,4 +6929,6 @@
   "admin.system-wide-alert.breadcrumbs": "System-wide Alerts",
 
   "admin.system-wide-alert.title": "System-wide Alerts",
+
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen",
 }

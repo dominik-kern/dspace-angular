@@ -10697,7 +10697,7 @@
 
   // "submission.sections.submit.progressbar.describe.project": "Project basic information",
   // TODO New key - Add a translation
-  "submission.sections.submit.progressbar.describe.project": "Project basic information",
+  "submission.sections.submit.progressbar.describe.project": "Projektbeschreibung",
 
   // "submission.sections.submit.progressbar.describe.publication": "Publication basic information",
   // TODO New key - Add a translation
@@ -12468,5 +12468,7 @@
   // TODO New key - Add a translation
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen",
+  //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
+  //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
 }
