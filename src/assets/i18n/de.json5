@@ -3590,7 +3590,7 @@
 
   "menu.section.explore_projects": "Projects",
 
-  "menu.section.explore_fundings_and_projects": "Projekte",
+  "menu.section.explore_fundings_and_projects": "Projekte und Finanzierungen",
 
   "menu.section.communities_and_collections": "Organisationseinheiten",
 
@@ -6930,5 +6930,5 @@
 
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen",
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (leer für Haushaltsmittel)",
 }

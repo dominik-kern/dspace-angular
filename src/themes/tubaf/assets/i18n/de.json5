@@ -6395,7 +6395,7 @@
 
   // "menu.section.explore_fundings_and_projects": "Fundings & Projects",
   // TODO New key - Add a translation
-  "menu.section.explore_fundings_and_projects": "Projekte",
+  "menu.section.explore_fundings_and_projects": "Projekte und Finanzierungen",
 
   // "menu.section.communities_and_collections": "Communities & Collections",
   // TODO New key - Add a translation
@@ -12468,7 +12468,7 @@
   // TODO New key - Add a translation
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen",
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (leer für Haushaltsmittel)",
   //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
   //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
 }
