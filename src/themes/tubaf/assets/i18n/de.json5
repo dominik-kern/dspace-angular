@@ -2231,8 +2231,8 @@
   // "collection.page.license": "License",
   "collection.page.license": "Lizenz",
 
-  // "collection.page.news": "News",
-  "collection.page.news": "Neuigkeiten",
+  // "collection.page.news": "History",
+  "collection.page.news": "Historie",
 
 
 
@@ -3506,6 +3506,8 @@
   // "explore.index.all" : "All",
   // TODO New key - Add a translation
   "explore.index.all": "All",
+
+  "explore.index.publisher": "Herausgeber",
 
   // "explore.index.author" : "Author",
   // TODO New key - Add a translation
@@ -8874,7 +8876,7 @@
   "search.filters.filter.funding.label": "Search funding",
 
   // "search.filters.filter.has_content_in_original_bundle.head": "Has files",
-  "search.filters.filter.has_content_in_original_bundle.head": "Enthält Dateien",
+  "search.filters.filter.has_content_in_original_bundle.head": "Volltext vorhanden",
 
   // "search.filters.filter.itemtype.head": "Type",
   "search.filters.filter.itemtype.head": "Typ",
@@ -10698,6 +10700,8 @@
   // "submission.sections.submit.progressbar.describe.project": "Project basic information",
   // TODO New key - Add a translation
   "submission.sections.submit.progressbar.describe.project": "Projektbeschreibung",
+  
+"submission.sections.submit.progressbar.describe.project_funding_confirmation": "Funding confirmation (empty for budgetary-funded project)",
 
   // "submission.sections.submit.progressbar.describe.publication": "Publication basic information",
   // TODO New key - Add a translation
@@ -10706,7 +10710,7 @@
   // "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Publication bibliographic details",
   "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Bibliografische Informationen",
 
-  // "submission.sections.submit.progressbar.describe.publication_indexing": "Publication indexing",
+  // "submission.sections.submit.progressbar.describe.publication_indexing": "Publication indexing (to be done by library)",
   // TODO New key - Add a translation
   "submission.sections.submit.progressbar.describe.publication_indexing": "Publication indexing",
 
@@ -12468,7 +12472,9 @@
   // TODO New key - Add a translation
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (leer für Haushaltsmittel)",
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (außer für Haushaltsmittel)",
   //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
   //"submission.sections.submit.progressbar.describe.project_basic_restricted": "",
+
+  "layout.field.label.OrgUnit.crisou.director": "Lehrstuhlinhaber",
 }

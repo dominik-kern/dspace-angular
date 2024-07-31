@@ -1393,7 +1393,7 @@
 
   "collection.page.license": "License",
 
-  "collection.page.news": "News",
+  "collection.page.news": "History",
 
   "collection.select.confirm": "Confirm selected",
 
@@ -1605,7 +1605,7 @@
 
   "community.page.license": "License",
 
-  "community.page.news": "News",
+  "community.page.news": "History",
 
   "community.all-lists.head": "Subcommunities and Collections",
 
@@ -2167,6 +2167,8 @@
   "explore.index.all": "All",
 
   "explore.index.author": "Author",
+
+  "explore.index.publisher": "Publisher",
 
   "explore.index.graphitemtype": "Graph by type",
 
@@ -7310,4 +7312,7 @@
   "third-party-metrics-cookies.consent-settings": "consent settings",
 
   "third-party-metrics-blocked": "Some of the metrics are blocked by your",
+
+   "layout.field.label.OrgUnit.crisou.director": "Professor",
+
 }

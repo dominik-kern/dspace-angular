@@ -1292,7 +1292,7 @@
 
   "collection.page.license": "Lizenz",
 
-  "collection.page.news": "Neuigkeiten",
+  "collection.page.news": "Historie",
 
   "collection.select.confirm": "Auswahl bestätigen",
 
@@ -4986,7 +4986,7 @@
 
   "search.filters.filter.funding.label": "Search funding",
 
-  "search.filters.filter.has_content_in_original_bundle.head": "Enthält Dateien",
+  "search.filters.filter.has_content_in_original_bundle.head": "Volltext vorhanden",
 
   "search.filters.filter.itemtype.head": "Typ",
 
@@ -6930,5 +6930,11 @@
 
   "admin.system-wide-alert.title": "System-wide Alerts",
 
-  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (leer für Haushaltsmittel)",
+  "submission.sections.submit.progressbar.describe.project_basic_restricted": "vom D4 auszufüllen (außer für Haushaltsmittel)",
+
+  "explore.index.publisher": "Herausgeber",
+
+  "submission.sections.submit.progressbar.describe.project_funding_confirmation": "Funding confirmation (empty for budgetary-funded project)",
+
+  "layout.field.label.OrgUnit.crisou.director": "Lehrstuhlinhaber",
 }
