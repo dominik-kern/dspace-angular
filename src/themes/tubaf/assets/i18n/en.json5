@@ -7315,4 +7315,19 @@
 
    "layout.field.label.OrgUnit.crisou.director": "Professor",
 
+   "submit.progressbar.describe.project_type": "Project type",
+  
+   "submit.progressbar.describe.project_basic": "Basic project information",
+
+   "submit.progressbar.describe.project_d4":  "administrative data",
+ 
+   "submit.progressbar.describe.project_funding": "Funding information",
+   
+   "submit.progressbar.describe.project_thirdparty": "Information for third-party funding",
+
+   "submit.progressbar.describe.project_costs": "Costs",
+
+   "submit.progressbar.describe.project_collaboration": "Information about collaborative project (empty for individual projects)",
+
+   "submit.progressbar.describe.project_description": "Project description",
 }

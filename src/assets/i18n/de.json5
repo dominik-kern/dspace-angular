@@ -6937,4 +6937,20 @@
   "submission.sections.submit.progressbar.describe.project_funding_confirmation": "Funding confirmation (empty for budgetary-funded project)",
 
   "layout.field.label.OrgUnit.crisou.director": "Lehrstuhlinhaber",
+
+  "submit.progressbar.describe.project_collaboration": "Informationen zum Verbundprojekt (leer für Einzelprojekte)",
+
+  "submit.progressbar.describe.project_type": "Projekttyp",
+
+  "submit.progressbar.describe.project_funding": "Informationen zur Förderung",
+
+  "submit.progressbar.describe.project_thirdparty": "Drittmittelanzeige",
+
+  "submit.progressbar.describe.project_basic": "Basisinformationen",
+
+  "submit.progressbar.describe.project_d4": "Verwaltungsinterne Daten",
+
+  "submit.progressbar.describe.project_costs": "Kosten",
+
+  "submit.progressbar.describe.project_description": "Projektbeschreibung",
 }
