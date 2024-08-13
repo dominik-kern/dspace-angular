@@ -186,6 +186,10 @@ export class DefaultAppConfig implements AppConfig {
           style: 'fas fa-user'
         },
         {
+          name: 'local.KDSF.applicant',
+          style: 'fas fa-user'
+        },
+        {
           name: 'dc.contributor.editor',
           style: 'fas fa-user'
         },

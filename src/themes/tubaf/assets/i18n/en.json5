@@ -7330,4 +7330,6 @@
    "submit.progressbar.describe.project_collaboration": "Information about collaborative project (empty for individual projects)",
 
    "submit.progressbar.describe.project_description": "Project description",
+
+   "form.other-information.local_KDSF_participantAffiliation": "Affiliation",
 }

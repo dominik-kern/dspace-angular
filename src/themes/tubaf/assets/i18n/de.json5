@@ -12487,4 +12487,6 @@
    "submit.progressbar.describe.project_costs": "Kosten",   
    "submit.progressbar.describe.project_collaboration": "Informationen zum Verbundprojekt (leer für Einzelprojekte)",
    "submit.progressbar.describe.project_description": "Projektbeschreibung",
+
+   "form.other-information.local_KDSF_participantAffiliation": "Einrichtung",
 }
