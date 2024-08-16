@@ -186,11 +186,35 @@ export class DefaultAppConfig implements AppConfig {
           style: 'fas fa-user'
         },
         {
+          name: 'dc.contributor.editor',
+          style: 'fas fa-user'
+        },
+        {
           name: 'local.KDSF.applicant',
           style: 'fas fa-user'
         },
         {
-          name: 'dc.contributor.editor',
+          name: 'local.KDSF.speaker',
+          style: 'fas fa-user'
+        },
+        {
+          name: 'local.KDSF.cospeaker',
+          style: 'fas fa-user'
+        },
+        {
+          name: 'crispj.coordinator',
+          style: 'fas fa-user'
+        },
+        {
+          name: 'crispj.investigator',
+          style: 'fas fa-user'
+        },
+        {
+          name: 'crispj.coinvestigators',
+          style: 'fas fa-user'
+        },
+        {
+          name: 'local.KDSF.participant',
           style: 'fas fa-user'
         },
         {
@@ -199,6 +223,34 @@ export class DefaultAppConfig implements AppConfig {
         },
         {
           name: 'oairecerif.editor.affiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'local.KDSF.applicantAffiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'local.KDSF.speakerAffiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'local.KDSF.cospeakerAffiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'crispj.coordinator.affiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'crispj.investigator.affiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'crispj.coinvestigators.affiliation',
+          style: 'fas fa-university'
+        },
+        {
+          name: 'local.KDSF.participantAffiliation',
           style: 'fas fa-university'
         },
         {
