@@ -48,24 +48,26 @@ export class ProfilePageMetadataFormComponent implements OnInit {
     new DynamicInputModel({
       id: 'firstname',
       name: 'eperson.firstname',
-      required: true,
+      readOnly: true
+      /*required: true,
       validators: {
         required: null
       },
       errorMessages: {
         required: 'This field is required'
-      },
+      },*/
     }),
     new DynamicInputModel({
       id: 'lastname',
       name: 'eperson.lastname',
-      required: true,
+      readOnly: true
+      /*required: true,
       validators: {
         required: null
       },
       errorMessages: {
         required: 'This field is required'
-      },
+      },*/
     }),
     new DynamicInputModel({
       id: 'phone',

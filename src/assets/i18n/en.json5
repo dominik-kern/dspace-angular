@@ -7259,4 +7259,20 @@
   "submit.progressbar.describe.project_description": "Project description",
 
   "form.other-information.local_KDSF_participantAffiliation": "Affiliation",
+
+  "submission.sections.submit.progressbar.describe.project_type": "Project type",
+
+  "submission.sections.submit.progressbar.describe.project_basic": "Basic project information",
+
+  "submission.sections.submit.progressbar.describe.project_d4": "administrative data",
+
+  "submission.sections.submit.progressbar.describe.project_funding": "Funding information",
+
+  "submission.sections.submit.progressbar.describe.project_thirdparty": "Information for third-party funding",
+
+  "submission.sections.submit.progressbar.describe.project_costs": "Costs",
+
+  "submission.sections.submit.progressbar.describe.project_collaboration": "Information about collaborative project (empty for individual projects)",
+
+  "submission.sections.submit.progressbar.describe.project_description": "Project description",
 }

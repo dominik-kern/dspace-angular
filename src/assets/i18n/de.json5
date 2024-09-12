@@ -6955,4 +6955,22 @@
   "submit.progressbar.describe.project_description": "Projektbeschreibung",
 
   "form.other-information.local_KDSF_participantAffiliation": "Einrichtung",
+
+  "submission.sections.submit.progressbar.describe.project_type": "Projekttyp",
+
+  "submission.sections.submit.progressbar.describe.project_basic": "Basisinformationen",
+
+  "submission.sections.submit.progressbar.describe.project_d4": "Verwaltungsinterne Daten",
+
+  "submission.sections.submit.progressbar.describe.project_funding": "Informationen zur Förderung",
+
+  "submission.sections.submit.progressbar.describe.project_thirdparty": "Drittmittelanzeige",
+
+  "submission.sections.submit.progressbar.describe.project_costs": "Kosten",
+
+  "submission.sections.submit.progressbar.describe.project_collaboration": "Informationen zum Verbundprojekt (leer für Einzelprojekte)",
+
+  "submission.sections.submit.progressbar.describe.project_description": "Projektbeschreibung",
+
+  "other-information.local_KDSF_participantAffiliation": "Einrichtung",
 }
