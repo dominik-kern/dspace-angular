@@ -5369,7 +5369,7 @@
   "item.page.relationships.isOrgUnitOfPerson": "Autoren",
 
   // "item.page.relationships.isOrgUnitOfProject": "Research Projects",
-  "item.page.relationships.isOrgUnitOfProject": "Forschungsprojekte",
+  "item.page.relationships.isOrgUnitOfProject": "Projekte",
 
   // "item.page.subject": "Keywords",
   "item.page.subject": "Schlagwörter",
@@ -8055,7 +8055,7 @@
 
 
   // "project.listelement.badge": "Research Project",
-  "project.listelement.badge": "Forschungsprojekt",
+  "project.listelement.badge": "Projekt",
 
   // "project.page.contributor": "Contributors",
   "project.page.contributor": "Beteiligte",

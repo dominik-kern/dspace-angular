@@ -3042,7 +3042,7 @@
 
   "item.page.relationships.isOrgUnitOfPerson": "Autoren",
 
-  "item.page.relationships.isOrgUnitOfProject": "Forschungsprojekte",
+  "item.page.relationships.isOrgUnitOfProject": "Projekte",
 
   "item.page.subject": "Schlagwörter",
 
@@ -4498,7 +4498,7 @@
 
   "profile.card.researcher": "Researcher Profile",
 
-  "project.listelement.badge": "Forschungsprojekt",
+  "project.listelement.badge": "Projekt",
 
   "project.page.contributor": "Beteiligte",
 
