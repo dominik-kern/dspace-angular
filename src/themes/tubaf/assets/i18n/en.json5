@@ -2167,6 +2167,9 @@
   "explore.index.all": "All",
 
   "explore.index.author": "Author",
+  "explore.index.fundername": "Funder",
+  "explore.index.projectstatus": "Status",
+  "explore.index.projecttype": "Type",
 
   "explore.index.publisher": "Publisher",
 
@@ -4997,6 +5000,12 @@
 
 
   "search.filters.filter.author.head": "Author",
+  "search.filters.filter.fundername.head": "Funder",
+  "search.filters.filter.fundername.label": "Funder",
+  "search.filters.filter.projectstatus.head": "Status",
+  "search.filters.filter.projectstatus.label": "Status",
+  "search.filters.filter.projecttype.head": "Type",
+  "search.filters.filter.projecttype.label": "Type",
 
   "search.filters.filter.author.placeholder": "Author name",
 

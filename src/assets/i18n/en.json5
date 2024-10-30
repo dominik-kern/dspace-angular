@@ -7275,4 +7275,22 @@
   "submission.sections.submit.progressbar.describe.project_collaboration": "Information about collaborative project (empty for individual projects)",
 
   "submission.sections.submit.progressbar.describe.project_description": "Project description",
+
+  "search.filters.filter.fundername.head": "Funder",
+
+  "search.filters.filter.projectstatus.head": "Status",
+
+  "explore.index.fundername": "Funder",
+
+  "explore.index.projectstatus": "Status",
+
+  "explore.index.projecttype": "Type",
+
+  "search.filters.filter.projecttype.head": "Type",
+
+  "search.filters.filter.fundername.label": "Funder",
+
+  "search.filters.filter.projectstatus.label": "Status",
+
+  "search.filters.filter.projecttype.label": "Type",
 }

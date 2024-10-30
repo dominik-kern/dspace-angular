@@ -6973,4 +6973,22 @@
   "submission.sections.submit.progressbar.describe.project_description": "Projektbeschreibung",
 
   "other-information.local_KDSF_participantAffiliation": "Einrichtung",
+
+  "search.filters.filter.fundername.head": "Förderer",
+
+  "search.filters.filter.projectstatus.head": "Status",
+
+  "explore.index.fundername": "Förderer",
+
+  "explore.index.projectstatus": "Status",
+
+  "explore.index.projecttype": "Typ",
+
+  "search.filters.filter.projecttype.head": "Typ",
+
+  "search.filters.filter.fundername.label": "Förderer",
+
+  "search.filters.filter.projectstatus.label": "Status",
+
+  "search.filters.filter.projecttype.label": "Typ",
 }
