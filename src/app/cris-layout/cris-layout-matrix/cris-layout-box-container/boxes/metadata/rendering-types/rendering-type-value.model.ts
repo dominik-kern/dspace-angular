@@ -33,13 +33,29 @@ export abstract class RenderingTypeValueModelComponent extends RenderingTypeMode
     this.renderingSubType = renderingSubTypeProvider;
   }
 
+  isNumeric(value: string): boolean {
+    return /^-?\d+$/.test(value);
+  }
   /**
    * Purge all HTML tags, then replace newline character with <br>
    * @param text
    */
+
   formatText(text: string): string {
     const newlineRegex = /\n/g;
     return text.replace(/>/g, '&gt;').replace(/</g, '&lt;').replace(newlineRegex, '<br>');
+  }
+
+  formatCurrency(text: string): string {
+    let modtext = "";
+    if (this.isNumeric(text)) {
+      let numtext: number = +text
+      modtext = Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(numtext).toString();
+    } else {
+      const newlineRegex = /\n/g;
+      modtext = text.replace(/>/g, '&gt;').replace(/</g, '&lt;').replace(newlineRegex, '<br>');
+    }
+    return modtext;
   }
 
 }

@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 export enum FieldRenderingType {
   TEXT = 'TEXT',
+  CURRENCY = 'CURRENCY',
   HEADING = 'HEADING',
   LONGTEXT = 'LONGTEXT',
   DATE = 'DATE',

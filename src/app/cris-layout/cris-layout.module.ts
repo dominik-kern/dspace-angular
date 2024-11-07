@@ -35,6 +35,9 @@ import {
   TextComponent
 } from './cris-layout-matrix/cris-layout-box-container/boxes/metadata/rendering-types/text/text.component';
 import {
+  CurrencyComponent
+} from './cris-layout-matrix/cris-layout-box-container/boxes/metadata/rendering-types/currency/currency.component';
+import {
   HeadingComponent
 } from './cris-layout-matrix/cris-layout-box-container/boxes/metadata/rendering-types/heading/heading.component';
 import {
@@ -119,6 +122,7 @@ const ENTRY_COMPONENTS = [
   CrisLayoutMetadataBoxComponent,
   CrisLayoutCollectionBoxComponent,
   TextComponent,
+  CurrencyComponent,
   HeadingComponent,
   CrisLayoutRelationBoxComponent,
   CrisLayoutIIIFViewerBoxComponent,

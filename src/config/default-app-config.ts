@@ -601,6 +601,10 @@ export class DefaultAppConfig implements AppConfig {
         baseUrl: 'https://d-nb.info/gnd/'
       },
       {
+        name: 'ror',
+        baseUrl: 'https://ror.org/'
+      },
+      {
         name: 'mailto',
         baseUrl: 'mailto:'
       }

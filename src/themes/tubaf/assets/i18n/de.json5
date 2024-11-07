@@ -2213,7 +2213,7 @@
 
 
   // "collection.page.browse.recent.head": "Recent Submissions",
-  "collection.page.browse.recent.head": "Neueste Veröffentlichungen",
+  "collection.page.browse.recent.head": "Neueste Publikationen",
 
   // "collection.page.browse.recent.empty": "No items to show",
   "collection.page.browse.recent.empty": "Es gibt keine Items, die angezeigt werden können.",
@@ -3099,7 +3099,7 @@
 
 
   // "deny-request-copy.email.message": "Dear {{ recipientName }},\nIn response to your request I regret to inform you that it's not possible to send you a copy of the file(s) you have requested, concerning the document: \"{{ itemUrl }}\" ({{ itemName }}), of which I am an author.\n\nBest regards,\n{{ authorName }} <{{ authorEmail }}>",
-  "deny-request-copy.email.message": "Sehr geehrte/r {{ recipientName }},\nLeider kann ich Ihnen die angeforderte Datei zu meiner Veröffentlichung \"{{ itemUrl }}\" ({{ itemName }}) nicht schicken.\n\nMit freundlichen Grüßen\n{{ authorName }} <{{ authorEmail }}>",
+  "deny-request-copy.email.message": "Sehr geehrte/r {{ recipientName }},\nLeider kann ich Ihnen die angeforderte Datei zu meiner Publikation \"{{ itemUrl }}\" ({{ itemName }}) nicht schicken.\n\nMit freundlichen Grüßen\n{{ authorName }} <{{ authorEmail }}>",
 
   // "deny-request-copy.email.subject": "Request copy of document",
   // TODO New key - Add a translation
@@ -3150,7 +3150,7 @@
   "dso-selector.create.item.sub-level": "Ein neues Item erstellen in",
 
   // "dso-selector.create.submission.head": "New submission",
-  "dso-selector.create.submission.head": "Neue Veröffentlichung",
+  "dso-selector.create.submission.head": "Neue Publikation",
 
   // "dso-selector.edit.collection.head": "Edit collection",
   "dso-selector.edit.collection.head": "Sammlung bearbeiten",
@@ -3418,7 +3418,7 @@
   "error.objects": "Fehler beim Laden der Objekte",
 
   // "error.recent-submissions": "Error fetching recent submissions",
-  "error.recent-submissions": "Fehler beim Laden der neuesten Veröffentlichungen",
+  "error.recent-submissions": "Fehler beim Laden der neuesten Publikationen",
 
   // "error.search-results": "Error fetching search results",
   "error.search-results": "Fehler beim Laden der Suchergebnisse",
@@ -3451,7 +3451,7 @@
   "error.validation.custom-url.invalid-characters": "The custom url contains invalid characters.",
 
   // "error.validation.license.notgranted": "You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission.",
-  "error.validation.license.notgranted": "Um die Veröffentlichung abzuschließen, müssen Sie die Lizenzbedingungen akzeptieren. Wenn Sie zur Zeit dazu nicht in der Lage sind, können Sie Ihre Arbeit sichern und später dazu zurückkehren, um zuzustimmen oder die Einreichung zu löschen.",
+  "error.validation.license.notgranted": "Um die Publikation abzuschließen, müssen Sie die Lizenzbedingungen akzeptieren. Wenn Sie zur Zeit dazu nicht in der Lage sind, können Sie Ihre Arbeit sichern und später dazu zurückkehren, um zuzustimmen oder die Einreichung zu löschen.",
 
   // "error.validation.pattern": "This input is restricted by the current pattern: {{ pattern }}.",
   "error.validation.pattern": "Die Eingabe muss dem folgenden Muster entsprechen: {{ pattern }}.",
@@ -4144,7 +4144,7 @@
 
 
   // "grant-request-copy.email.message": "Dear {{ recipientName }},\nIn response to your request I have the pleasure to send you in attachment a copy of the file(s) concerning the document: \"{{ itemUrl }}\" ({{ itemName }}), of which I am an author.\n\nBest regards,\n{{ authorName }} <{{ authorEmail }}>",
-  "grant-request-copy.email.message": "Sehr geehrte/r {{ recipientName }}, vielen Dank für Ihre Anfrage. Gerne schicke ich Ihnen die Datei zu meiner Veröffentlichung: \"{{ itemUrl }}\" ({{ itemName }}). \nMit freundlichen Grüßen,\n{{ authorName }} <{{ authorEmail }}>",
+  "grant-request-copy.email.message": "Sehr geehrte/r {{ recipientName }}, vielen Dank für Ihre Anfrage. Gerne schicke ich Ihnen die Datei zu meiner Publikation: \"{{ itemUrl }}\" ({{ itemName }}). \nMit freundlichen Grüßen,\n{{ authorName }} <{{ authorEmail }}>",
 
   // "grant-request-copy.email.subject": "Request copy of document",
   // TODO New key - Add a translation
@@ -4881,7 +4881,7 @@
 
   // "item.edit.public.error": "An error occurred while making the item discoverable",
   // TODO Source message changed - Revise the translation
-  "item.edit.public.error": "Veröffentlichung des Items fehlgeschlagen",
+  "item.edit.public.error": "Publikation des Items fehlgeschlagen",
 
   // "item.edit.public.header": "Make item discoverable: {{ id }}",
   // TODO New key - Add a translation
@@ -5354,7 +5354,7 @@
   "item.page.metric.label.plumX": "PlumX",
 
   // "item.page.person.search.title": "Articles by this author",
-  "item.page.person.search.title": "Veröffentlichungen dieses:dieser Autor",
+  "item.page.person.search.title": "Publikationen dieses:dieser Autor",
 
   // "item.page.related-items.view-more": "Show {{ amount }} more",
   "item.page.related-items.view-more": "{{ amount }} mehr anzeigen",
@@ -5366,7 +5366,7 @@
   "item.page.relationships.isAuthorOfPublication": "Veröffentichungen",
 
   // "item.page.relationships.isJournalOfPublication": "Publications",
-  "item.page.relationships.isJournalOfPublication": "Veröffentlichungen",
+  "item.page.relationships.isJournalOfPublication": "Publikationen",
 
   // "item.page.relationships.isOrgUnitOfPerson": "Authors",
   "item.page.relationships.isOrgUnitOfPerson": "Autoren",
@@ -6189,7 +6189,7 @@
   "loading.objects": "Lade...",
 
   // "loading.recent-submissions": "Loading recent submissions...",
-  "loading.recent-submissions": "Lade neueste Veröffentlichungen...",
+  "loading.recent-submissions": "Lade neueste Publikationen...",
 
   // "loading.search-results": "Loading search results...",
   "loading.search-results": "Lade Suchergebnisse...",
@@ -6952,7 +6952,7 @@
   "mydspace.messages.to": "An",
 
   // "mydspace.new-submission": "New submission",
-  "mydspace.new-submission": "Neue Veröffentlichung",
+  "mydspace.new-submission": "Neue Publikation",
 
   // "mydspace.new-bulk-import": "New bulk import",
   // TODO New key - Add a translation
@@ -6965,7 +6965,7 @@
   "mydspace.new-submission-external-short": "Importieren von Metadaten",
 
   // "mydspace.results.head": "Your submissions",
-  "mydspace.results.head": "Ihre Veröffentlichungen",
+  "mydspace.results.head": "Ihre Publikationen",
 
   // "mydspace.results.no-abstract": "No Abstract",
   "mydspace.results.no-abstract": "Keine Zusammenfassung",
@@ -7004,7 +7004,7 @@
   "mydspace.show.workflow": "Alle Aufgaben",
 
   // "mydspace.show.workspace": "Your Submissions",
-  "mydspace.show.workspace": "Ihre Veröffentlichungen",
+  "mydspace.show.workspace": "Ihre Publikationen",
 
   // "mydspace.show.supervisedWorkspace": "Supervised items",
   // TODO New key - Add a translation
@@ -8097,7 +8097,7 @@
 
 
   // "publication.listelement.badge": "Publication",
-  "publication.listelement.badge": "Veröffentlichung",
+  "publication.listelement.badge": "Publikation",
 
   // "publication.page.description": "Description",
   "publication.page.description": "Beschreibung",
@@ -10536,7 +10536,7 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title": "Search Results",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
-  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Möchten Sie die Namensvariante \"{{ value }}\" speichern, damit sie bei zukünftigen Veröffentlichungen erneut verwendet werden kann? Sie können die Variante bei dieser Veröffentlichung auch verwenden, ohne sie zu speichern.",
+  "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Möchten Sie die Namensvariante \"{{ value }}\" speichern, damit sie bei zukünftigen Publikationen erneut verwendet werden kann? Sie können die Variante bei dieser Publikation auch verwenden, ohne sie zu speichern.",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Save a new name variant",
   "submission.sections.describe.relationship-lookup.name-variant.notification.confirm": "Als Namensvariante speichern",
@@ -10583,7 +10583,7 @@
   "submission.sections.general.invalid_state_error": "Cannot save current changes, mandatory fields are missing. Please resolve problems and save again later.",
 
   // "submission.sections.general.deposit_success_notice": "Submission deposited successfully.",
-  "submission.sections.general.deposit_success_notice": "Veröffentlichung erfolgreich eingereicht",
+  "submission.sections.general.deposit_success_notice": "Publikation erfolgreich eingereicht",
 
   // "submission.sections.general.discard_error_notice": "There was an issue when discarding the item, please try again later.",
   "submission.sections.general.discard_error_notice": "Beim Verwerfen der Einreichung ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal",
@@ -11577,7 +11577,7 @@
   "supervisedWorkspace.search.results.head": "Supervised Items",
 
   // "workspace.search.results.head": "Your submissions",
-  "workspace.search.results.head": "Ihre Veröffentlichungen",
+  "workspace.search.results.head": "Ihre Publikationen",
 
   // "workflowAdmin.search.results.head": "Administer Workflow",
   "workflowAdmin.search.results.head": "Workflow verwalten",

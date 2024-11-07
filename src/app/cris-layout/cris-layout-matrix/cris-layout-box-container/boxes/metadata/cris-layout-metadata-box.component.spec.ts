@@ -10,6 +10,7 @@ import { TranslateLoaderMock } from '../../../../../shared/mocks/translate-loade
 import { CrisLayoutLoaderDirective } from '../../../../directives/cris-layout-loader.directive';
 import { boxMetadata } from '../../../../../shared/testing/box.mock';
 import { TextComponent } from './rendering-types/text/text.component';
+import { CurrencyComponent } from './rendering-types/currency/currency.component';
 import { SharedModule } from '../../../../../shared/shared.module';
 import { RowComponent } from './row/row.component';
 
