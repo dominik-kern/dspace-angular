@@ -10721,7 +10721,7 @@
 
   // "submission.sections.submit.progressbar.describe.publication_indexing": "Publication indexing (to be done by library)",
   // TODO New key - Add a translation
-  "submission.sections.submit.progressbar.describe.publication_indexing": "Publication indexing",
+  "submission.sections.submit.progressbar.describe.publication_indexing": "Indizierung (von Bibliotheksmitarbeitern auszufüllen)",
 
   // "submission.sections.submit.progressbar.describe.publication_references": "Publication references",
   "submission.sections.submit.progressbar.describe.publication_references": "Verbindungen",
